@@ -52,6 +52,11 @@ public class HomePage {
         return new BasicAuthPage(driver);
     }
 
+    public HorizontalSlidePage clickHorizontalSlide(){
+        clickLink("Horizontal Slider");
+        return new HorizontalSlidePage(driver);
+    }
+
     private void clickLink(String linkText){
 
         driver.findElement(By.linkText(linkText)).click();
