@@ -11,7 +11,7 @@ public class HorizontalSliderTest extends BaseTests {
     @Test
     public void horizontalSlideTest() {
         String value = "5";
-        var horizontalSlide = homePage.clickHorizontalSlide();
+        HorizontalSlidePage horizontalSlide = homePage.clickHorizontalSlide();
         horizontalSlide.setSliderValue(value);
         assertEquals(horizontalSlide.getSliderValue(), value, horizontalSlide.getSliderValue());
     }

@@ -47,11 +47,6 @@ public class HomePage {
         return new AddRemoveElementPage(driver);
     }
 
-    public BasicAuthPage clickBasicAuth(){
-        clickLink("Basic Auth");
-        return new BasicAuthPage(driver);
-    }
-
     public HorizontalSlidePage clickHorizontalSlide(){
         clickLink("Horizontal Slider");
         return new HorizontalSlidePage(driver);
