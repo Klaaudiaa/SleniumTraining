@@ -48,6 +48,16 @@
             <artifactId>action-js</artifactId>
             <version>9.0.10</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.wechatpay-apiv3</groupId>
+            <artifactId>wechatpay-apache-httpclient</artifactId>
+            <version>0.4.8</version>
+        </dependency>
+        <dependency>
+            <groupId>name.wramner.httpclient</groupId>
+            <artifactId>HttpClient</artifactId>
+            <version>1.1</version>
+        </dependency>
 
 
     </dependencies>

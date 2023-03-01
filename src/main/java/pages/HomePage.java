@@ -52,6 +52,11 @@ public class HomePage {
         return new HorizontalSlidePage(driver);
     }
 
+    public BrokenImagesPage clickBrokenImages(){
+        clickLink("Broken Images");
+        return new BrokenImagesPage(driver);
+    }
+
     private void clickLink(String linkText){
 
         driver.findElement(By.linkText(linkText)).click();
